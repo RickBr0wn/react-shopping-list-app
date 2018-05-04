@@ -1,13 +1,14 @@
 import React from 'react'
 
 const styles = {
-	display: 'flex',
-	justifyContent: 'center'
+	color: '#0069D9',
+	marginTop: '2.25rem',
+	marginBottom: '2.25rem'
 }
 
 const Title = () => {
 	return (
-		<div style={styles}>
+		<div style={styles} className="container">
 			<h1>SHOPPING LIST</h1>
 		</div>		
 	)

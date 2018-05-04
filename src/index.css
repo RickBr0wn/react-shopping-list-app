@@ -1,13 +1,17 @@
+html{
+  background-color: #E1E2E1;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: blue;
+  background-color: #E1E2E1 !important;
 }
 
-.table{
-  background-color: white;
-  max-width: 50% !important;
+table{
+  background-color: #fff !important;
+  border-radius: 15px;
 }
 
 .col-centered{
